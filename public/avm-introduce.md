@@ -85,7 +85,7 @@ AVMとは、Microsoftによって開発・テストされ公開されている�
   var deploymentSuffix = uniqueString(resourceGroup().id, deployment().name)
 
   /*
-    ASP Deployment
+    Deployment
   */
   module asp 'br/public:avm/res/web/serverfarm:0.5.0' = {
     name: 'avm-${aspName}-${deploymentSuffix}'
@@ -232,6 +232,8 @@ APIバージョンも最新のものが利用されていて、アップデー�
   - AVMのBicepリソースモジュールを呼び出すだけで、複雑なリソースも簡単にデプロイできるため、開発効率が上がる。
 - 保守性が高い
   - Microsoftによって開発・テストされているため、信頼性が高く、保守性も高い。
+- 商用利用が可能
+  - AVMはMITライセンスで公開されているため、商用利用も可能。
 
 ### デメリット
 
