@@ -1,13 +1,13 @@
 ---
 title: Azure Verified Module(AVM)を使ってBicepスクリプトの開発を効率化する
 tags:
-    - "Azure"
-    - "Bicep"
-    - "IaC"
-    - "AVM"
+  - Azure
+  - IaC
+  - Bicep
+  - AVM
 private: false
-updated_at: ""
-id: null
+updated_at: '2025-09-29T21:22:59+09:00'
+id: 026e9325c91c4181c5ef
 organization_url_name: null
 slide: false
 ignorePublish: false
