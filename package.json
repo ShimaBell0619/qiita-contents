@@ -1,0 +1,24 @@
+{
+  "name": "qiita-contents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShimaBell0619/qiita-contents.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ShimaBell0619/qiita-contents/issues"
+  },
+  "homepage": "https://github.com/ShimaBell0619/qiita-contents#readme",
+  "devDependencies": {
+    "@qiita/qiita-cli": "^1.6.2"
+  }
+}
